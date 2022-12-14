@@ -8,7 +8,13 @@ snippet:
 
     public class BasicVariablesInitialization {
         public static void main(String[] args) {
-             //write code here
+             int first, second, third;
+             first = 1;
+             second = 10;
+             third = 100;
+             System.out.println(first);
+             System.out.println(second);
+             System.out.println(third);
         }
     }
 
@@ -19,7 +25,9 @@ statement with value "10". Print to console "c". Implement the program inside of
 
     public class DeclaringVars {
        public static void main(String[] args) {
-            //write code here 
+            int a, b, c;
+            a=b=c=1;
+            System.out.println(c);
        }
     }
 
@@ -33,6 +41,23 @@ Implement the program inside of given code snippet:
 
     public class ReassigningValues {
        public static void main(String[] args) {
-            //write code here 
+            int first=1;
+            int second = 10;
+            int third = 100;
+            System.out.println(first);
+            System.out.println(second);
+            System.out.println(third);
+            int linkToFirst = 15;
+            int linkToSecond = 6;
+            int linkToThird = 4;
+            first = linkToFirst;
+            second = linkToSecond;
+            third = linkToThird;
+            System.out.println(first);
+            System.out.println(second);
+            System.out.println(third);
+            System.out.println(linkToFirst);
+            System.out.println(linkToSecond);
+            System.out.println(linkToThird);
        }
     }
