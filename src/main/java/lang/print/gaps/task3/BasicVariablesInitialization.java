@@ -9,6 +9,5 @@ public class BasicVariablesInitialization {
         System.out.println(first);
         System.out.println(second);
         System.out.println(third);
-
     }
 }

@@ -5,6 +5,5 @@ public class DeclaringVars {
         int a, b, c;
         a=b=c=1;
         System.out.println(c);
-
     }
 }
